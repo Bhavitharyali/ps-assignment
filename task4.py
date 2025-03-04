@@ -4,6 +4,8 @@ for i in range(1,n+1):
     print(i)
     
 Time Complexity-O(n)
+Space Complexity-O(1)
+
 ----------------------------------------------------------
 
 #sum of first n natural numbers
@@ -14,6 +16,8 @@ for i in range(1,n+1):
 print(sum)
 
 Time Complexity-O(n)
+Space Complexity-O(1)
+
 --------------------------------------------------------------
 
 #Approach2
@@ -22,6 +26,8 @@ sum=(n*(n+1)/2)
 print("Sum of first ",n,"natural numbers is",sum)
 
 Time Complexity-O(1)
+Space Complexity-O(1)
+
 
 
 ----------------------------------------------------------------
@@ -34,6 +40,8 @@ while num<=50:
     num+=1
 
 Time Complexity-O(n)
+Space Complexity-O(1)
+
 
 -------------------------------------------------------------------
 # Multiplication table of a number
@@ -44,6 +52,8 @@ while i<=20:
     i+=1
 
 Time Complexity-O(n)
+Space Complexity-O(1)
+
 --------------------------------------------------------------------
 
 #sum of each digit
@@ -58,6 +68,8 @@ while temp>0:
 print(sum)
 
 Time Complexity-O(logn)
+Space Complexity-O(1)
+
 
 -------------------------------------------------------------------------
 #count digits in a number
@@ -72,6 +84,8 @@ while temp>0:
 print(count)
 
 Time complexity-O(logn)
+Space Complexity-O(1)
+
 
 --------------------------------------------------------------------------
 #ask user input until negative number is entered
@@ -84,6 +98,7 @@ while n>0:
 
 
 Time complexity-O(n)
+Space Complexity-O(1)
 
 ------------------------------------------------------------------------
 
@@ -97,6 +112,7 @@ else:
     print(num, "is equal to zero")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 ---------------------------------------------------------------------------
 
@@ -109,6 +125,8 @@ else:
     print(num, "is an odd number")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
+
 
 
  --------------------------------------------------------------------------
@@ -120,6 +138,7 @@ result = "Eligible to vote" if age>=18 else "Not Eligible to vote"
 print(result)
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
  ----------------------------------------------------------------------------------
 
@@ -131,6 +150,7 @@ result = "num1 is greater" if num1>num2 else "num2 is greater"
 print(result)
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 
  ----------------------------------------------------------------------------------
@@ -144,6 +164,7 @@ else:
     print("Fail")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 
 ----------------------------------------------------------------------------------
@@ -169,6 +190,7 @@ else:
     print("Not valid")
     
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 ----------------------------------------------------------------------------------
 
@@ -192,6 +214,7 @@ else:
     print("Invalid Input")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
  ----------------------------------------------------------------------------------
 
@@ -224,6 +247,7 @@ elif month == 12:
     print("December")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 ----------------------------------------------------------------------------------
 
@@ -242,6 +266,7 @@ else:
     print("All three are equal numbers")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 ----------------------------------------------------------------------------------
 
@@ -253,6 +278,7 @@ if ((year % 4 == 0) and (year % 100 != 0)) or ((year % 400 == 0) and (year % 100
 else:
     print("Not a Leap year")
 Time Complexity-O(1)
+Space Complexity-O(1)
 
  ----------------------------------------------------------------------------------
 
@@ -275,6 +301,7 @@ if len(char) == 1:
 else:
     print("Enter single character only")
 Time Complexity:-O(1)
+Space Complexity-O(1)
 
 ----------------------------------------------------------------------------------
 
@@ -293,6 +320,7 @@ else:
     print("Not a number")
     
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 
  ----------------------------------------------------------------------------------
@@ -308,6 +336,7 @@ else:
     print("It will not form a valid triangle")
 
 Time Complexity-O(1)
+Space Complexity-O(1)
 
 
 
